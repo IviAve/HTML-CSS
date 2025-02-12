@@ -1,0 +1,40 @@
+.box-model {
+    width: 50vw;
+    margin: 3em auto;
+}
+
+.box-model div {
+    border: 1px dashed #666;
+    margin: 0 2em 2em 2em;
+}
+.box-model div::before {
+    display: block;
+    height: 2em;
+    align-content: center;
+    padding-left: 0.8em;
+}
+.box-model .margin {
+    background: #FF9670;
+    
+}
+
+.box-model .margin::before {
+    content: 'margin';
+}
+.box-model .border {
+    background-color: #FFE8C6;
+}
+.box-model .border::before {
+    content: 'border';
+}
+.box-model .padding {
+    background-color: #85EB85;
+}
+.box-model .padding::before {
+    content: 'padding';
+}
+.box-model .content {
+    background-color: #A3D2E2;
+    padding: 1em;
+    text-align: center;
+}

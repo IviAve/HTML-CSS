@@ -1,0 +1,139 @@
+@import url(https://fonts.googleapis.com/css2?family=Kode+Mono:wght@400..700&display=swap);
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font: 14px/1.5 Lato, sans-serif;
+}
+
+body, input, select, button {
+    font: inherit;
+}
+/* Reset Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Kode Mono", monospace;
+}
+
+/* Body Styles */
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #d8d8d8;
+}
+
+/* Form Container */
+.container {
+    background-color: #12202f;
+    padding: 2rem;
+    border-radius: 3px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+    width: 400px;
+    text-align: center;
+}
+
+/* Tabs */
+.tabs {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1rem;
+}
+
+.tabs button {
+    flex: 1;
+    padding: 10px;
+    font-size: 1rem;
+    font-weight: bold;
+    border: none;
+    background-color: #34495e;
+    color: white;
+    cursor: pointer;
+}
+
+.tabs .active {
+    background-color: #00c489;
+}
+
+/* Form Title */
+h2 {
+    color: white;
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+/* Floating Label Input Group */
+.input-group {
+    position: relative;
+    margin-bottom: 15px;
+}
+
+.input-group input {
+    width: 100%;
+    padding: 6px;
+    border: 1px solid #888;
+    border-radius: 1px;
+    background-color: transparent;
+    color: white;
+    font-size: 1rem;
+    outline: none;
+}
+
+.input-group label {
+    position: absolute;
+    top: 50%;
+    left: 12px;
+    transform: translateY(-50%);
+    color: #aaa;
+    font-size: 1rem;
+    transition: 0.3s;
+    pointer-events: none;
+}
+
+/* Green Star */
+.required {
+    color: #00c489;
+}
+
+/* Move label up when input is focused or filled */
+.input-group input:focus + label,
+.input-group input:valid + label {
+    top: 5px;
+    font-size: 0.8rem;
+    color: white;
+}
+
+/* First Name & Last Name in one row */
+.first-last {
+    display: flex;
+    gap: 10px;
+}
+
+/* Submit Button */
+.submit-btn {
+    width: 100%;
+    padding: 12px;
+    margin-top: 15px;
+    border: none;
+    background-color: #00c489;
+    color: white;
+    font-size: 1.2rem;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 1px;
+}
+
+.submit-btn:hover {
+    background-color: #00a176;
+}
+.hover:hover {
+    background-color: #00a176;
+}
+

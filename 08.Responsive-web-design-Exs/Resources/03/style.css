@@ -1,0 +1,143 @@
+html {
+	font: 12px/1.5 Lato, sans-serif;
+}
+
+@media (min-width: 600px) {
+	html { font-size: 14px; }
+}
+
+@media (min-width: 900px) {
+	html { font-size: 16px; }
+}
+
+@media (min-width: 1200px) {
+	html { font-size: 18px; }
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-size: 1em;
+	line-height: 1.2;
+	margin-bottom: 0.5em;
+}
+
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin-top: 0.5em;
+}
+
+h1 {
+	font-size: 2.2em;
+}
+
+h2 {
+	font-size: 2.0em;
+}
+
+h3 {
+	font-size: 1.8em;
+}
+
+h4 {
+	font-size: 1.6em;
+}
+
+h5 {
+	font-size: 1.4em;
+}
+
+h6 {
+	font-size: 1.2em;
+}
+
+p {
+	margin: 0;
+	padding-bottom: 1.5em;
+}
+
+ol,
+ul,
+dl {
+	margin: 0 0 1.5em 0;
+}
+
+ul,
+ol {
+	padding: 0;
+	margin-left: 1.5em;
+}
+
+ul li,
+ol li {
+	list-style-position: inside;
+}
+
+ul ul {
+	margin-top: 0.5em;
+	margin-bottom: 0.5em;
+}
+
+ul li {
+	list-style-type: square;
+}
+
+ul ul li {
+	list-style-type: disc;
+}
+
+ul ul ul li {
+	list-style-type: circle;
+}
+
+blockquote {
+	border-left: 4px solid rgb(221, 221, 221);
+	font-style: italic;
+	margin: 0 0 1.5em 2em;
+	padding: 1em 2em;
+	position: relative;
+}
+
+blockquote .author {
+	text-align: right;
+}
+
+table {
+	width: 100%;
+	table-layout: fixed;
+	margin-bottom: 1.5em;
+	border: 1px solid #CCC;
+	border-spacing: 0;
+	border-collapse: collapse;
+}
+
+table td,
+table th {
+	border: 1px solid #CCC;
+	padding: 0.3em 0.5em;
+}
+
+table thead th {
+	text-align: left;
+	background: #CCC;
+}
+
+table tr:nth-child(odd) td {
+	background: #F1F1F1;
+}
+
+table tr:hover td {
+	background: black;
+	color: #FFF;
+	border-color: transparent;
+}
+
+hr {
+	margin: 2em 0;
+}

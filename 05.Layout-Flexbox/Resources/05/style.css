@@ -1,0 +1,31 @@
+html {
+    margin: 0;
+    padding: 0;
+}
+.container {
+    width: 400px;
+    height: 200px;
+    padding: 1em;
+    border: 2px solid blue;
+    display: flex; /* Важно: родителят трябва да е flex container */
+}
+.item {
+    background: #eee;
+    padding: 20px;
+    border: 2px solid #000;
+}
+.item-stretch {
+    align-items: stretch;
+}
+.item-flex-start {
+    align-items: flex-start;
+}
+.item-center {
+    align-items: center;
+}
+.item-flex-end {
+    align-items: flex-end;
+}
+.item-baseline {
+    align-items: baseline;
+}

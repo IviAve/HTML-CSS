@@ -1,0 +1,27 @@
+html {
+    margin: 0;
+    padding: 0;
+}
+.container {
+    width: 400px;
+    /* height: 200px; */
+    padding: 1em;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    border: 2px solid blue;
+    display: flex; /* Важно: родителят трябва да е flex container */
+}
+.item {
+    background: #eee;
+    padding: 20px;
+    border: 2px solid #000;
+}
+.item-gap-row {
+ gap:2em 0;
+}
+.item-gap-column {
+    gap:0 2em;
+}
+.item-gap-gap {
+    gap: 2em;
+}

@@ -1,0 +1,17 @@
+.todo-list {
+    color: red;
+}
+
+.todo-list li {
+    color: brown;
+}
+
+.todo-list li:hover {
+    background-color: #e9ecef;
+    text-decoration: line-through;
+    cursor: pointer;
+}
+
+.todo-list.done li {
+    text-decoration: line-through;
+}

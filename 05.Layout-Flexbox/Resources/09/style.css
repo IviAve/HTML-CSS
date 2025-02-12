@@ -1,0 +1,30 @@
+html {
+    margin: 0;
+    padding: 0;
+}
+.container {
+    width: 300px;
+    padding: 1em;
+    align-items: flex-start;
+    /* flex-wrap: wrap; */
+    border: 2px solid blue;
+    display: flex;
+}
+.item {
+    background: #eee;
+    padding: 20px;
+    flex-basis: 300px;
+    
+    border: 2px solid #000;
+}
+.item-flex-shrink-default {
+    flex-shrink: 1;
+}
+
+.item-flex-shrink0 {
+    flex-shrink: 0;
+}
+
+.item-flex-shrink-2nd-child-only {
+    flex-shrink: 0;
+}

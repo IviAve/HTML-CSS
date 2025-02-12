@@ -1,0 +1,27 @@
+html {
+    margin: 0;
+    padding: 0;
+}
+.container {
+    width: 400px;
+    padding: 1em;
+    border: 2px solid blue;
+    display: flex; /* Важно: родителят трябва да е flex container */
+}
+.item {
+    background: #eee;
+    padding: 20px;
+    border: 2px solid #000;
+}
+.item-row {
+    flex-direction: row;
+}
+.item-row-reverse {
+    flex-direction: row-reverse;
+}
+.item-column {
+    flex-direction: column;
+}
+.item-column-rev {
+    flex-direction: column-reverse;
+}

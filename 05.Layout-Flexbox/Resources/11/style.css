@@ -1,0 +1,30 @@
+/* html {
+    margin: 0;
+    padding: 0;
+} */
+.container {
+    width: 400px;
+    height: 200px;
+    padding: 1em;
+    border: 2px solid blue;
+    display: flex;
+    align-items: flex-start;
+}
+.item {
+    background: #eee;
+    padding: 20px;
+    border: 2px solid #000;
+}
+.flex-start .item:nth-child(2) {
+    align-self: flex-start;
+}
+.center .item:nth-child(2) {
+    align-self: center;
+}
+.flex-end .item:nth-child(2) {
+    align-self: flex-end;
+}
+.baseline .item:nth-child(2) {
+    align-self: baseline;
+}
+
