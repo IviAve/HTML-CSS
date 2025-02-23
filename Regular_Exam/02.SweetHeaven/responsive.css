@@ -1,0 +1,129 @@
+@media screen and (max-width: 600px) {
+    body {
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+
+    .nav {
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: space-between;
+        align-items: center;
+
+        padding: 10px 0; 
+       
+
+    }
+
+    .nav-burger-menu {
+        display: block;
+        cursor: pointer;
+        color: #FFFFFF;
+        padding: 0 60px;
+        font-size: 24px;
+    }
+
+    .nav-logo a {
+        font-size: 18px;
+        padding: 0 120px;
+    }
+
+
+
+
+
+
+    .nav-menu {
+        display: none;
+        flex-direction: column;
+        gap: 10px;
+        width: 100%;
+        text-align: center;
+    }
+
+    
+    
+  
+    .nav-user-btns {
+        display: block;
+      width: auto;
+      justify-content: center;
+    }
+
+
+
+
+    .nav-user-btns {
+        display: flex;
+        flex-direction: column; 
+        width: 100%; 
+      }
+      
+      .nav-user-btns li {
+        width: 100%; 
+      }
+      
+      .nav-user-btns button {
+        width: 100%; 
+        padding: 10px; 
+        text-align: center; 
+        border: none; 
+        background-color: #007bff; 
+        color: white;
+        font-size: 16px;
+      }
+      
+  
+    .content-info {
+      flex-direction: column;
+      padding: 20px;
+      text-align: center;
+    }
+  
+    .content-info-welcome {
+      width: 100%;
+    }
+  
+    .content-info-welcome h2 {
+      font-size: 50px;
+    }
+  
+    .content-info-img {
+      /* width: 50%;
+      height: auto;
+      margin: 0 auto; */
+      display: none;
+    }
+  
+    .content-services {
+      flex-direction: column;
+      align-items: center;
+      
+    }
+  
+    .content-services div {
+      width: 90%;
+      text-align: center;
+      
+    }
+  
+    .gallery {
+      flex-direction: column;
+      /* gap: 15px; */
+      
+    }
+  
+    .gallery img {
+      width: 90%;
+      height: auto;
+      border-radius: 0;
+      background: #B0D7D5;
+      
+    }
+  
+    footer {
+      text-align: center;
+    }
+  }
+  

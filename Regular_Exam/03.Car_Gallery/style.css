@@ -1,0 +1,238 @@
+@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,300italic,400,400italic,600");
+
+/* body {
+    background: #FFFFFF;
+}
+
+.nav-bar {
+    background: #FF7088;
+}
+.nav-bar ul  {
+    
+    list-style-type: none;
+}
+.nav-bar ul li a {
+    text-decoration: none;
+    color: #FCE8E0;
+} */
+
+
+
+body {
+    background: #FFFFFF;
+    margin: 0;
+    padding: 0;
+    font: 1em 'Source Sans Pro', sans-serif ;
+  }
+  
+  .nav-bar {
+    background: #FF7088;
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+    padding: 10px;
+    background: linear-gradient(to right, #FF5A70, #F2B49C 60%); 
+  }
+  
+  .nav-bar ul {
+    list-style-type: none;
+    display: flex; 
+    margin: 0;
+    padding: 0;
+    gap: 15px;
+  }
+
+  ul li:nth-child(3) {
+    padding-left: 30px; 
+    padding-right: 30px;
+  }
+  
+  
+  .nav-bar ul li {
+    margin-right: 20px; 
+   
+  }
+  
+  .nav-bar ul li a {
+    text-decoration: none;
+    color: #FCE8E0;
+    font-size: 18px;
+   
+  }
+  
+  .header-text {
+    text-align: center; 
+    margin-top: 20px;
+  }
+  
+  .header-text h1 {
+    font-size: 36px;
+    color: #FDF9F8;
+    margin: 10px 0;
+  }
+  
+  .header-text p {
+    font-size: 18px;
+    color: #FDF9F8;
+    margin: 10px 0;
+  }
+  
+  .btn1 {
+    padding: 10px 20px;
+    font-size: 16px;
+    color: white;
+    background: transparent;
+    border: 1.5px solid #F9D5CA;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+  }
+  
+  .btn1:hover {
+    background-color: #F4BCAA;
+  }
+  .nav-bar ul li a:hover {
+    background-color: #F4BCAA; 
+    transform: scale(1.1);
+    border-left: 1.5px solid gainsboro;
+    border-bottom: 1.5px solid gainsboro;
+    border-right: 1.5px solid gainsboro;
+    padding-top: 1em;
+    padding-bottom: 0.5em;
+    border-bottom-right-radius: 0.3em;
+    border-bottom-left-radius: 0.3em ;
+  }
+
+  .two-cars {
+    display: flex; 
+    justify-content: center; 
+    gap: 20px; 
+    margin-top: 40px;
+    background: #F6F8FB;
+  }
+  
+  .two-cars img {
+    max-width: 20%; 
+    height: auto; 
+    
+  }
+
+  .explore-footer {
+    text-align: center;
+    background: #F5F7FA;
+    border-top: 1.5px solid #E7E8EA;
+    margin-top: 80px;
+    padding: 20px;
+    margin-bottom: 50px;
+  }
+
+
+
+  
+  
+  .explore-footer h3 {
+    font-size: 2rem; 
+    margin-bottom: 10px;
+    color: #958293;
+
+  }
+  
+  .explore-footer p {
+    font-size: 1rem; 
+    opacity: 0.8; 
+    margin-bottom: 10px; 
+  }
+  
+  .explore-footer p:last-of-type {
+    font-size: 0.9rem; 
+    opacity: 0.6; 
+    padding: 20px;
+  }
+  
+  .explore-footer p:first-of-type {
+    color: red;
+    border-bottom: 1.5px solid #EAEDF0; 
+    padding-bottom: 60px;
+     
+  }
+
+  .wirdest {
+    text-align: center; 
+    padding: 20px; 
+  }
+  
+   h2 {
+    font-size: 2rem; 
+    margin-bottom: 10px;
+    color: gray !important;
+  }
+  
+  .btn-2 {
+    padding: 0 20px; 
+    background-color: #FFFFFF; 
+    color: #88A5A9; 
+    border: 1.5px solid #CBCDD0; 
+    border-radius: 5px; 
+    font-size: 1rem; 
+    cursor: pointer; 
+    transition: background-color 0.3s ease; 
+  }
+  
+  
+  
+  .sign-in {
+    background: url(./images/promo.jpg);
+    padding: 40px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    border: 1.5px solid grey;
+    margin: 40px;
+  }
+
+  .border {
+    border: 1.5px solid gray;
+    display: flex;
+    gap: 1em;
+    padding: 1em;
+    border-radius: 0.5em;
+  }
+  .border p {
+    color: white;
+  }
+
+
+  .two-text {
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    gap: 20px; 
+  }
+  
+  .text1 {
+    padding: 10px 20px; 
+    border-radius: 5px; 
+    width: 20%; 
+    text-align: center; 
+  }
+  
+  .text1 h3 {
+    font-size: 1.2rem; 
+    margin-bottom: 10px; 
+  }
+  
+  .text1 p {
+    font-size: 0.9rem; 
+    margin-bottom: 15px; 
+  }
+  .btn-3 {
+    background: white;
+    padding: 1em;
+    border-radius: 0.5em;
+    border: 1.5px solid rgb(203, 203, 203);
+  }
+  .text1, .btn-3 {
+    color: rgba(0, 0, 0, 0.2); 
+  }
+  
+  
